@@ -8,6 +8,6 @@ zuul:
         max-semaphores: 500
     routes:
         api-a:
-          path: /services
+          path: /services/**
           # 提供服务的名称，对外接口，需提供token
           serviceId: arthur-manage-serviceWeb
