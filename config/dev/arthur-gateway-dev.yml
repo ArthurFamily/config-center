@@ -11,3 +11,5 @@ zuul:
           path: /services/**
           # 提供服务的名称，对外接口，需提供token
           serviceId: arthur-manage-serviceWeb
+spring:
+  accessToken: 1000010121385750333
